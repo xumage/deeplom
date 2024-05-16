@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AUTOPARK - Весь транспорт</title>
+        <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/adaptive.css" />
+        <script defer src="script/index.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container header__container">
+                    <a href="#" class="logo">AUTOPARK</a>
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#">О нас</a></li>
+                            <li class="nav__item"><a href="#">Условия</a></li>
+                            <li class="nav__item selected"><a href="#">Автопарк</a></li>
+                            <li class="nav__item"><a href="#">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <div class="user-actions">
+                        <a class="social-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="whatsapp" /></a>
+                        <a class="social-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="telegram" /></a>
+                        <a class="call" href="+79173898554"><img width="25" height="25" src="img/phone.svg" alt="Позвонить" />+79173898554</a>
+                    </div>
+                    <button type="button" class="burger-menu-button">
+                        <span class="burger-menu-button__line"></span>
+                        <span class="burger-menu-button__line"></span>
+                        <span class="burger-menu-button__line"></span>
+                    </button>
+
+                    <!-- mobile menu -->
+                    <ul class="nav__list_mobile">
+                        <li class="nav__item_mobile"><a href="#">О нас</a></li>
+                        <li class="nav__item_mobile"><a href="#">Условия</a></li>
+                        <li class="nav__item_mobile"><a href="#">Автопарк</a></li>
+                        <li class="nav__item_mobile"><a href="#">Отзывы</a></li>
+                        <li class="nav__item_mobile">
+                            <a class="social-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="whatsapp" /></a> <a class="social-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="telegram" /></a>
+                        </li>
+                        <li class="nav__item_mobile nav__item_mobile-phone"><a href="+79173898554">+79173898554</a></li>
+                    </ul>
+                    <!-- mobile menu -->
+                </div>
+            </header>
+            <main class="main">
+                <section class="cars-gallery">
+                    <div class="container cars-gallery__container">
+                        <h2 class="sec-title">Весь транспорт</h2>
+
+                        <div class="tab-container">
+                            <button class="tab-button" onclick="openTab('tab1')">Весь транспорт</button>
+                            <button class="tab-button" onclick="openTab('tab2')">Автобусы</button>
+                            <button class="tab-button" onclick="openTab('tab3')">Легковые</button>
+                            <button class="tab-button" onclick="openTab('tab4')">Премиум</button>
+
+                            <div id="tab1" class="tab active">
+                                <ul class="tab__list">
+                                    <li class="tab__item">
+                                        <a href="#"><img width="260" height="170" src="img/granta/granta1.png" alt="Лада Гранта" /></a>
+                                        <div class="popular__title"><a href="#">Lada Granta</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#"><img width="260" height="170" src="img/gazel/next1.webp" alt="Газель Некст" /></a>
+                                        <div class="popular__title"><a href="#">Газель Некст</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#"><img width="260" height="170" src="img/sprinter/sprinter1.webp" alt="Лада Гранта" /></a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz Sprinter</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img width="260" height="170" src="img/merc/merc1.png" alt="Mercedes-Benz V-class" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz V-class</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img width="260" height="170" src="img/222/w2221.png" alt="Mercedes-Benz W222" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz W222</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="tab2" class="tab">
+                                <h2 class="sec-title">Автобусы</h2>
+                                <ul class="tab__list">
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/gazel/next1.webp" alt="Газель Некст" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Газель Некст</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/sprinter/sprinter1.webp" alt="Mercedes-Benz Sprinter" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz Sprinter</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/merc/merc1.png" alt="Mercedes-Benz V-class" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz V-class</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="tab3" class="tab">
+                                <h2 class="sec-title">Легковые</h2>
+                                <ul class="tab__list">
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/granta/granta1.png" alt="Mercedes-Benz W222" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Lada Granta</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/222/w2221.png" alt="Mercedes-Benz W222" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz W222</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="tab4" class="tab">
+                                <h2 class="sec-title">Премиум</h2>
+                                <ul class="tab__list">
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/222/w2221.png" alt="Mercedes-Benz W222" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz W222</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                    <li class="tab__item">
+                                        <a href="#">
+                                            <img src="img/merc/merc1.png" alt="Mercedes-Benz W222" />
+                                        </a>
+                                        <div class="popular__title"><a href="#">Mercedes-Benz V class</a></div>
+                                        <div class="popular__price"><a href="#">От 1000 руб/час</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer-column">
+                        <div class="footer-column-title">Клиентам</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item"><a href="#">О нас</a></li>
+                            <li class="footer-column__item"><a href="#">Преимущества</a></li>
+                            <li class="footer-column__item"><a href="#">Вопрос - ответ</a></li>
+                            <li class="footer-column__item"><a href="#">Договор</a></li>
+                            <li class="footer-column__item"><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Автопарк</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item"><a href="#">Автобусы</a></li>
+                            <li class="footer-column__item"><a href="#">Легковые</a></li>
+                            <li class="footer-column__item"><a href="#">Внедорожники</a></li>
+                            <li class="footer-column__item"><a href="#">Премиум</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Контакты</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item">
+                                <a class="footer-column__item-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="WhatsApp" /></a>
+                                <a class="footer-column__item-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="Telegram" /></a>
+                            </li>
+                            <li class="footer-column__item">
+                                <a class="call" href="+79173898554"><img width="25" height="25" src="img/phone.svg" alt="Телефон" />+79173898554</a>
+                            </li>
+                            <li class="footer-column__item"><img src="img/geo.svg" alt="Географическое положение" />Р. Башкортостан, г. Салават, Молодогвардейцев, 6/1</li>
+                            <li class="footer-column__item footer-column__item_grey">Индивидуальный предприниматель: Шарафутдинов Булат Мухтарович</li>
+                            <li class="footer-column__item footer-column__item_grey">ИНН 026615181309</li>
+                            <li class="footer-column__item footer-column__item_grey">ОГРНИП 323028000125828</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+@media (max-width: 1230px) {    .main-title {
+        font-size: 35px;
+        max-width: 660px;
+        line-height: 170%;
+    }
+    .sec-title {
+        font-size: 25px;
+    }
+    .categories__list {
+        justify-content: center;
+    }
+    .welcome__title {
+        font-size: 30px;
+    }
+    .welcome__text {
+        font-size: 30px;
+    }
+    .trigger__item {
+        font-size: 15px;
+        padding: 20px;
+        max-width: 265px;
+    }
+    .trigger__item img {
+        width: 30px;
+        height: 30px;
+    }
+    .categories__list {
+        justify-content: flex-start;
+    }
+    .categories__item {
+        padding: 10px;
+        max-width: 190px;
+        font-size: 10px;
+    }
+    .popular__list {
+        justify-content: flex-start;
+        gap: 50px;
+    }
+    .popular__item img {
+        max-width: 350px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .welcome__list {
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        white-space: nowrap;
+        margin: 0 auto;
+    }
+    .sec-title {
+        margin: 30px 0;
+    }
+    .footer-column-title {
+        font-size: 25px;
+    }
+    .footer-column__item {
+        font-size: 15px;
+    }
+    .about__container p {
+        flex-direction: column;
+    }
+    .about__container p img {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 1077px) {
+    .header__container {
+        padding-top: 10px;
+    }
+    .nav__list,
+    .user-actions {
+        display: none;
+    }
+    .header__container {
+        justify-content: space-between;
+    }
+    .burger-menu-button {
+        display: block;
+    }
+    .nav__item {
+        margin-bottom: 10px;
+    }
+    .social-link:last-child {
+        margin-right: 0;
+    }
+    .logo {
+        margin-right: 0;
+        font-size: 25px;
+    }
+    .trigger__item {
+        font-size: 10px;
+        padding: 15px;
+        max-width: 200px;
+    }
+    .trigger__item img {
+        width: 30px;
+        height: 30px;
+    }
+    .booking__container {
+        flex-direction: column;
+    }
+    .booking__left p {
+        margin-bottom: 50px;
+    }
+    .booking__left,
+    .booking__right {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 810px) {
+    .footer__container {
+        flex-direction: column;
+        row-gap: 20px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 712px) {
+    .main-title {
+        margin: 50px 0 70px;
+        font-size: 25px;
+    }
+    .welcome__title,
+    .welcome__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 690px) {
+    .info-block {
+        padding: 20px;
+    }
+    .info__title {
+        font-size: 30px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .soc-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .car-desc__container {
+        flex-direction: column;
+    }
+    .car-desc__price-info {
+        font-size: 35px;
+    }
+    .go-rent {
+        max-width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .popular__item img {
+        max-width: 100%;
+    }
+    .categories__item {
+        width: 100%;
+        max-width: 100%;
+    }
+    .car-description__left {
+        font-size: 12px;
+    }
+    .car-desc__price-info {
+        font-size: 25px;
+    }
+    .table__container {
+        overflow-x: auto;
+    }
+}

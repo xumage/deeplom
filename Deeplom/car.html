@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AUTOPARK - Забронировать Lada Granta</title>
+        <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="swiper/swiper-bundle.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/adaptive.css" />
+        <script defer src="swiper/swiper-bundle.js"></script>
+        <script defer src="script/index.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container header__container">
+                    <a href="#" class="logo">AUTOPARK</a>
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="about.html">О нас</a></li>
+                            <li class="nav__item"><a href="conditions.html">Условия</a></li>
+                            <li class="nav__item"><a href="allcars.html">Автопарк</a></li>
+                            <li class="nav__item"><a href="#">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <div class="user-actions">
+                        <a class="social-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="whatsapp" /></a>
+                        <a class="social-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="telegram" /></a>
+                        <a class="call" href="+79173898554"><img width="25" height="25" src="img/phone.svg" alt="Позвонить" />+79173898554</a>
+                    </div>
+                    <button type="button" class="burger-menu-button">
+                        <span class="burger-menu-button__line"></span>
+                        <span class="burger-menu-button__line"></span>
+                        <span class="burger-menu-button__line"></span>
+                    </button>
+
+                    <!-- mobile menu -->
+                    <ul class="nav__list_mobile">
+                        <li class="nav__item_mobile"><a href="about.html">О нас</a></li>
+                        <li class="nav__item_mobile"><a href="conditions.html">Условия</a></li>
+                        <li class="nav__item_mobile"><a href="allcars.html">Автопарк</a></li>
+                        <li class="nav__item_mobile"><a href="#">Отзывы</a></li>
+                        <li class="nav__item_mobile">
+                            <a class="social-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="whatsapp" /></a> <a class="social-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="telegram" /></a>
+                        </li>
+                        <li class="nav__item_mobile nav__item_mobile-phone"><a href="+79173898554">+79173898554</a></li>
+                    </ul>
+                    <!-- mobile menu -->
+                </div>
+            </header>
+            <main class="main">
+                <section class="car-slider">
+                    <div class="container car-slider__container">
+                        <h2 class="sec-title">Lada Granta</h2>
+                        <div class="swiper car-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide car-slide" style="background-image: url(img/gazel/next1.webp)"></div>
+                                <div class="swiper-slide car-slide" style="background-image: url(img/granta/granta2.png)"></div>
+                                <div class="swiper-slide car-slide" style="background-image: url(img/granta/granta2.png)"></div>
+                                <div class="swiper-slide car-slide" style="background-image: url(img/granta/granta2.png)"></div>
+                            </div>
+                            <div class="car-swiper-buttons">
+                                <div class="swiper-button-prev car-button-prev"></div>
+                                <div class="swiper-button-next car-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="car-description">
+                    <div class="container car-desc__container">
+                        <div class="car-description__left">
+                            <div class="car-desc">
+                                Класс:
+                                <div class="car-desc__info car-desc__class-info">Автобус</div>
+                            </div>
+                            <div class="car-desc">
+                                Количество сидячих мест:
+                                <div class="car-desc__info car-desc__sit-info">10</div>
+                            </div>
+                            <div class="car-desc">
+                                Количество стоячих мест:
+                                <div class="car-desc__info car-desc__stay-info">4</div>
+                            </div>
+                            <div class="car-desc">
+                                Доступных машин:
+                                <div class="car-desc__info car-desc__count-info">1</div>
+                            </div>
+                            <div class="car-desc">
+                                Минимальный срок аренды:
+                                <div class="car-desc__info car-desc__time-info">3</div>
+                            </div>
+                        </div>
+                        <div class="car-desc__right">
+                            <div class="car-desc car-desc__price-info">
+                                Стоимость:
+                                <div class="car-desc__info-price">3000/час</div>
+                            </div>
+                            <div class="car-desc" style="font-weight: 400">
+                                <div class="car-status">.</div>
+                                В наличии
+                            </div>
+                            <button class="go-rent" type="button">Забронировать</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="table">
+                    <div class="container table__container">
+                        <div class="table__container">
+                            <table class="table__table">
+                                <tr class="table__tr">
+                                    <td class="table__td">3-12 часа</td>
+                                    <td class="table__td">12-72 часа</td>
+                                    <td class="table__td">3-7 дней</td>
+                                    <td class="table__td">7+ дней</td>
+                                </tr>
+                                <tr class="table__tr">
+                                    <td class="table__td">3000/час</td>
+                                    <td class="table__td">2000/час</td>
+                                    <td class="table__td">1800/час</td>
+                                    <td class="table__td">договорная</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="car-driver container">
+                        <div class="car-driver__text">Личный водитель</div>
+                        <div class="car-driver__value">Да</div>
+                    </div>
+                </section>
+
+                <section class="booking">
+                    <div class="container booking__container">
+                        <div class="booking__left">
+                            <h2 class="booking__title">Бронь транспорта</h2>
+                            <p>Мы свяжемся с вами в течение часа для уточнения деталей. Либо забронируйте автомобиль по номеру <a class="booking-phone" href="+79173898554">+7(917)3898554</a></p>
+                        </div>
+                        <div class="booking__right">
+                            <form action="#" method="post" class="booking__form">
+                                <input class="booking__input booking__input_name" type="text" placeholder="Имя" />
+                                <input class="booking__input booking__input_phone" type="text" placeholder="Телефон" />
+                                <select class="booking__input booking__city" name="" id="">
+                                    <option class="booking__value" value="Salavat">Салават</option>
+                                    <option class="booking__value" value="Ishimbai">Ишимбай</option>
+                                    <option class="booking__value" value="Sterlitamak">Стерлитамак</option>
+                                    <option class="booking__value" value="Other">Другой город</option>
+                                </select>
+                                <input class="booking__input booking__input_date" type="text" placeholder="Период аренды" />
+                                <!--календарь. дата аренды  -->
+                                <button type="submit" class="go-rent booking__form-button">Забронировать</button>
+                                <p>Нажимая кнопку Забронировать» вы соглашаетесь с <a href="conditions.html">условиями</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section class="info">
+                    <div class="container info__container">
+                        <h2 class="visualy-hidden">Остались вопросы?</h2>
+                        <div class="info-block">
+                            <img class="decoration decoration5" src="img/dekor/decoration 2.png" alt="" />
+                            <div class="info__title">Есть вопросы?</div>
+                            <p>С удовольствием ответим на любой Ваш вопрос</p>
+                            <div class="soc-button"><a class="soc-button__link" href="#">Написать в WhatsApp</a></div>
+                            <div class="soc-button"><a class="soc-button__link" href="#">Написать в Telegram</a></div>
+                        </div>
+                    </div>
+                </section> -->
+            </main>
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer-column">
+                        <div class="footer-column-title">Клиентам</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item"><a href="#">О нас</a></li>
+                            <li class="footer-column__item"><a href="#">Преимущества</a></li>
+                            <li class="footer-column__item"><a href="#">Вопрос - ответ</a></li>
+                            <li class="footer-column__item"><a href="#">Договор</a></li>
+                            <li class="footer-column__item"><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Автопарк</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item"><a href="#">Автобусы</a></li>
+                            <li class="footer-column__item"><a href="#">Легковые</a></li>
+                            <li class="footer-column__item"><a href="#">Внедорожники</a></li>
+                            <li class="footer-column__item"><a href="#">Премиум</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Контакты</div>
+                        <ul class="footer-column__list">
+                            <li class="footer-column__item">
+                                <a class="footer-column__item-link" href="#"><img width="35" height="35" src="img/wa.svg" alt="WhatsApp" /></a>
+                                <a class="footer-column__item-link" href="#"><img width="35" height="35" src="img/tg.svg" alt="Telegram" /></a>
+                            </li>
+                            <li class="footer-column__item">
+                                <a class="call" href="+79173898554"><img width="25" height="25" src="img/phone.svg" alt="Телефон" />+79173898554</a>
+                            </li>
+                            <li class="footer-column__item"><img src="img/geo.svg" alt="Географическое положение" />Р. Башкортостан, г. Салават, Молодогвардейцев, 6/1</li>
+                            <li class="footer-column__item footer-column__item_grey">Индивидуальный предприниматель: Шарафутдинов Булат Мухтарович</li>
+                            <li class="footer-column__item footer-column__item_grey">ИНН 026615181309</li>
+                            <li class="footer-column__item footer-column__item_grey">ОГРНИП 323028000125828</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
